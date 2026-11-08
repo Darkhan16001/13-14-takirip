@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+  <meta name="referrer"
+        content="strict-origin-when-cross-origin">
+
+  <title>Қазақстан тарихы | §13–14</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- defer: HTML толық ашылған соң JS қосылады -->
+  <script src="script.js?v=3" defer></script>
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-icon">ҚТ</span>
+    <div>
+      <strong>ҚАЗАҚСТАН ТАРИХЫ</strong>
+      <small>1-курс • Интерактивті сабақ</small>
+    </div>
+  </div>
+
+  <span class="lesson-tag">§13–14 • 80 минут</span>
+</header>
+
+<div class="layout">
+
+  <main class="main">
+    <section class="hero">
+      <span class="eyebrow">
+        ЭТНИКАЛЫҚ ЖӘНЕ ӘЛЕУМЕТТІК ПРОЦЕСТЕР
+      </span>
+
+      <h1>
+        Қазақстан халқының
+        моноэтникалық құрамының өзгеруі
+      </h1>
+
+      <p>XVIII ғасыр – ХХ ғасырдың басы</p>
+
+      <div class="progress-track">
+        <div id="progressBar"></div>
+      </div>
+
+      <div class="progress-label">
+        <span id="stageTitle">Кіріспе</span>
+        <span id="pageCount">1 / 8</span>
+      </div>
+    </section>
+
+    <section id="content"></section>
+
+    <footer class="footer">
+      <span>Қазақстан тарихы • §13–14</span>
+      <strong>BY DARKHAN</strong>
+    </footer>
+  </main>
+
+  <!-- БАРЛЫҚ БАСҚАРУ БАТЫРМАЛАРЫ ОҢ ЖАҚТА -->
+  <aside class="sidebar">
+    <h2>САБАҚТЫ БАСҚАРУ</h2>
+
+    <section class="side-section">
+      <h3>Сабақ уақыты</h3>
+
+      <div id="timer" class="timer">00:00</div>
+      <p id="remaining" class="remaining">
+        Қалғаны: 80:00
+      </p>
+
+      <div class="timer-actions">
+        <button id="startTimer" class="success">
+          ▶ Бастау
+        </button>
+
+        <button id="pauseTimer" class="neutral">
+          ⏸ Тоқтату
+        </button>
+
+        <button id="resetTimer" class="danger">
+          ↺ Нөлдеу
+        </button>
+      </div>
+    </section>
+
+    <section class="side-section">
+      <h3>Сабақ кезеңдері</h3>
+      <nav id="stageNav"></nav>
+    </section>
+
+    <section class="side-section">
+      <h3>Командалардың ұпайлары</h3>
+
+      <div id="scoreboard"></div>
+
+      <button id="resetScores" class="reset-button">
+        Ұпайларды нөлдеу
+      </button>
+    </section>
+
+    <section class="side-section bottom-nav">
+      <button id="previous" class="previous">
+        ← Алдыңғы бет
+      </button>
+
+      <button id="next" class="next">
+        Келесі бет →
+      </button>
+    </section>
+  </aside>
+
+</div>
+
+</body>
+</html>
